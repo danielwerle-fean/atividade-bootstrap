@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+	font-family: "Montserrat";
+}
+
+header {
+	background-image: url("imagens/bg-hero.jpg");
+	padding: 50px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
