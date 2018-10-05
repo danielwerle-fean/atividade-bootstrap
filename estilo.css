@@ -11,3 +11,37 @@ header {
 	background-position: center center;
 	background-repeat: no-repeat;
 }
+
+.header-topo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-topo a {
+	color: white;
+}
+
+.botao-outline {
+	border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.header-topo .botao-outline {
+	margin-left: 10px;
+}
+
+.header-conteudo {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 120px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.header-conteudo h1 {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}
