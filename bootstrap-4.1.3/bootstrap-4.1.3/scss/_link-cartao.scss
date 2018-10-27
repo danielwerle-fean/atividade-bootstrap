@@ -1,0 +1,54 @@
+
+.link-cartao {
+	height: 300px;
+	display: flex;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 30px;
+	font-size: 22px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-shadow: 0px 0px 30px $pink;
+	background-size: cover;
+	background-position: center;
+	transition: all 0.2s;
+}
+
+.link-cartao:hover {
+	color: white;
+	text-shadow: 0px 0px 10px $pink;
+	text-decoration: none;
+	transition: all 0.2s;
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
+.link-cartao.sports {
+	background-image: url('imagens/sports.jpg');
+}
+
+
+.link-cartao.wellness {
+	background-image: url('imagens/wellness.png');
+}
+
+.link-cartao.extreme {
+	background-image: url('imagens/extreme-sports.png');
+}
+
+.link-cartao.games {
+	background-image: url('imagens/games.png');
+}
+
+.link-cartao.culture {
+	background-image: url('imagens/culture.jpg');
+}
+
+.link-cartao.enjoyment {
+	background-image: url('imagens/relax.jpg');
+}
+
+.link-cartao.travelling {
+	background-image: url('imagens/travelling.jpg');
+}
